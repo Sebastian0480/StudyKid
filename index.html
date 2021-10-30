@@ -4,24 +4,35 @@
 	<title>Studykid</title>
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 	<meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/bfc4ede10e.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-<header class="encabezado">
-	<nav>
-		<ul>
-			<li><a href="index.html">INICIO</a></li>
-			<li><a href="Comojugar.html">¿COMO JUGAR?</a></li>
-			<li><a href="Donaciones.html">DONACIONES</a></li>
+<div class="contenedor-menu" id="contenedor-menu">
+	<p class="casa-menu" id="casa-menu">
+		<i class="fas fa-home"></i>
+	</p>
+	<nav class="elementos-navegacion">
+		<ul class="encabezado">
+		
+			<li class="titulo"><a href="StudyKid.html">StudyKid</a></li>
+			<li class="inicio"><a href="index.html">INICIO</a></li>
+			<li class="comojugar"><a href="Comojugar.html">¿COMO JUGAR?</a></li>
+			<li class="donaciones"><a href="Donaciones.html">DONACIONES</a></li>
+
 		</ul>
 	</nav>
-</header>
+</div>
 
 
+<ul>
+	
+</ul>
 
-
-<h1 class="Titulo">Studykid</h1>
-<div class="muchotexto">
+<div class="texto">
 	<h2>Aprende de manera mas eficiente y divertida</h2>
 <h2>¿Porque Studykid se diferencia de otros programas educativos?</h2>
 <p>Porque nosotros estamos enfocados en que los niños mediante juegos interactivos aprendan de una manera mucho mas divertida y didacta cosas como diferenciar animales, aprender las diferentes bandera de países, etc.
@@ -31,12 +42,43 @@
 <img class="computadora" src="computadora.jpg" alt="Estudiante de Studykid" info="foto de StudyKid">
 <img class="nino" src="nino estudiando.jpg" alt="Estudiante de Study kid 2"><br>
 
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
 
 <center>
-<h4>Todos los derechos reservados Copyright ® 
-</h4>
-<h4>Hecho por Sebastian Alvarado 2021 </h4>
+	<footer class="texto-abajo">
+		<h4>Copyright - Todos los derechos reservados ® | <b>StudyKid</b></h4>
+
+	</footer>
 </center>
+
+<script>
+	const menu = document.getElementById('casa-menu');
+	menu.addEventListener('click', () => {
+		document.getElementById('contenedor-menu').classList.toggle('active')
+	});
+</script>
 
 </body>
 </html>
