@@ -7,26 +7,47 @@
 	}
 
 body{
-	background:#80400;
-	color:black;
+	background:#efefef;
+	color:white;
+}
+
+
+.imagenes{
+	width:100%;
+	text-align:center;
 }
 
 .nino {
+
 	width:400px;
 	height:400px;
 	margin:20px;
-	border:5px solid green;
+	border:20px solid #396362;
+
 }
-.computadora{
+
+.computadora {
+	
 	width:400px;
 	height:400px;
-	margin:20px;
-	border:5px solid green;
+	margin:20px ;
+	border:20px solid #396362;
+
 }
 
 .texto{
+	margin-top:100px;
+	display:inline-block;
+	text-align:center;
+}
+
+.texto p{
 	margin:20px;
-	color:white;
+	font-size:20px;
+}
+
+.texto h2{
+	margin:20px;
 }
 
 .titulo{
@@ -113,13 +134,7 @@ body{
 	margin-bottom:20px;
 }
 
-.
-}
 
-
-}
-
-}
 
 .pepito{
 	text-decoration:none;
@@ -179,9 +194,7 @@ body{
 	height:100px;
 }
 
-.parrafo{
-	font-weight:300;
-}
+
 
 .cebra{
 width:400px;
@@ -211,23 +224,22 @@ color:rgb(170,170,170);
 .cebrapng{
 	width:1200px;
 	height:800px;
-
 	margin:50px;
-	outline:5px solid red;
+	border:20px solid #396362;
 }
 
 .pensarpng{
 	width:1200px;
 	height:800px;
 	margin: 50px;
-	outline:5px solid red;
+	border:20px solid #396362;
 }
 
 .eleccionespng{
 	width:1200px;
 	height:800px;
 	margin:50px;
-	outline:5px solid red;
+	border:20px solid #396362;
 
 }
 
@@ -238,6 +250,50 @@ color:rgb(170,170,170);
 		display:block;
 		width:100%;
 	}
+}
+
+.texto-h1{
+	margin-top:100px;
+	display:inline-block;
+	text-align:center;
+}
+
+.texto-h1 h1{
+	margin:20px;
+}
+
+.texto-h1 h2{
+	margin:20px;
+}
+
+.texto-h1 h3{
+	margin:10px 20px ;
+}
+
+.ultima-pregunta{
+	margin-bottom:120px;
+} 
+
+.primera-oracion{
+	margin-top:130px;
+	display:block;
+	text-align:center;
+}
+
+.centrar-animales{
+	margin-top:100px;
+	display:block;
+	text-align:center;
+}
+
+@media screen and (max-width:768px){
+
+	.cebrapng{
+		display:block;
+		width:50%;
+		
+	}
+
 }
 
 
