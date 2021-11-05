@@ -37,7 +37,7 @@ body{
 
 .texto{
 	margin-top:100px;
-	display:inline-block;
+	display:block;
 	text-align:center;
 }
 
@@ -244,13 +244,8 @@ color:rgb(170,170,170);
 }
 
 
-@media (max-width:800px){
-
-	header{
-		display:block;
-		width:100%;
-	}
 }
+
 
 .texto-h1{
 	margin-top:100px;
@@ -286,13 +281,179 @@ color:rgb(170,170,170);
 	text-align:center;
 }
 
-@media screen and (max-width:768px){
+
+
+@media (max-width:768px){
+
+
+
+	
 
 	.cebrapng{
 		display:block;
-		width:50%;
+		width:200px;
+		height:200px;
+		border:2px solid #396362;
+		
 		
 	}
+
+	.cebrapng img{
+		text-align:center;
+	}
+
+	.pensarpng{
+		display:block;
+		width:200px;
+		height:200px;
+		border:2px solid #396362;
+		text-align:center;
+	}
+
+	.eleccionespng{
+		display:block;
+		width:200px;
+		height:200px;
+		border:2px solid #396362;
+		text-align:center;
+	}
+
+	.contenedor-menu{
+
+	width:100%;
+	height:100%;
+	z-index:100;
+	background:#396362;
+	border-right:5px solid white;
+	text-align:center;
+	position:fixed;
+	top:0;
+	clip-path:circle(50px at 50% 0);
+	transition:1.5s ease all;
+	}
+
+	.contenedor-menu li a {
+	color:#f8f8f8;
+	font-size:30px;
+	text-decoration:none;
+	letter-spacing:2px;
+	padding:15px 30px;
+	text-transform:uppercase;
+	transition: .2s ease all;
+}
+
+
+
+.contenedor-menu li a:hover{
+	background:#000;
+}
+
+
+.contenedor-menu.active{
+	clip-path:circle(150% at 50% 0)
+
+}
+
+.contenedor-menu.active li{
+	animation: desplazamiento .7s ease;
+}
+
+@keyframes desplazamiento {
+	from {transform: translateY(1000px);}
+	to {transform: translateY(0);}
+}
+
+.casa-menu i{
+	color:white;
+	font-size:20px;
+	padding:10px;
+	cursor:pointer;
+	
+}
+
+
+.casa-menu:hover{
+	animation: rotar 1.5s alternate;
+}
+
+@keyframes rotar {
+	0% {transform: rotate(0deg) } 
+	20% {transform: rotate(10deg) } 
+	40% {transform: rotate(-15deg) } 
+	60% {transform: rotate(15deg) } 
+	80% {transform: rotate(-10deg) } 
+	100% {transform: rotate(0deg) } 
+}
+
+.elementos-navegacion{
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+}
+
+.elementos-navegacion li{
+	list-style:none;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+
+
+.zebraa{
+		width:400px;
+		height:400px;
+	}
+
+	
+
+.cebra{
+	width:80%;
+	height:30px;
+	font-size:20px;
+}
+
+
+
+.leon{
+	width:80%;
+	height:30px;
+	font-size:20px
+
+}
+
+
+.pinguino{
+	width:80%;
+	height:30px;
+	font-size:20px
+
+}
+
+
+.cocodrilo{
+	width:80%;
+	height:30px;
+	font-size:20px
+
+}
+
+
+.texto-h1{
+	margin-top:100px;
+	display:inline-block;
+	text-align:center;
+
+}
+
+.texto{
+	margin-top:100px;
+	display:block;
+	text-align:center;
+}
+
+
+
 
 }
 
