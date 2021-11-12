@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Studykid</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/bfc4ede10e.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="contenedor-menu" id="contenedor-menu">
+	<p class="casa-menu" id="casa-menu">
+		<i class="fas fa-home"></i>
+	</p>
+	<nav class="elementos-navegacion">
+		<ul class="encabezado">
+		
+			<li class="titulo"><a href="StudyKid.html">StudyKid</a></li>
+			<li class="inicio"><a href="index.html">INICIO</a></li>
+			<li class="comojugar"><a href="Comojugar.html">¿COMO JUGAR?</a></li>
+			<li class="donaciones"><a href="Donaciones.html">DONACIONES</a></li>
+
+		</ul>
+	</nav>
+</div>
+
+
+<div class="texto-h1">
+
+<h1>¿Como jugar?</h1>
+<h2 class="parrafo">Es facil jugar lo unico que tienes que hacer es leer la pregunta y de acuerdo  a esa pregunta marcar el cuadro que tu creas que es la respuesta correcta.</h1>
+	<h2>Recapitulemos:</h2>
+<h3>Paso 1: Leer la pregunta</h3>
+<div class="centrar-1">
+
+<img class="cebrapng" src="zebro.jpg">
+
+</div>
+
+<h3>Paso 2: Pensar en la respuesta</h3>
+
+<div class="centrar-2">
+
+<img class="pensarpng" src="pensandoo.jpg">
+
+</div>
+
+<h3>Paso 3: Marcar el cuadro con tu respuesta</h3>
+
+<div class="centrar-3">
+
+<img class="eleccionespng" src="elecciones.jpg">
+
+</div>
+
+<h1 class="ultima-pregunta">¿Listo para jugar?<a href="StudyKid.html"> Haz click aqui</a></h1>
+
+</div>
+
+<script>
+	const menu = document.getElementById('casa-menu');
+	menu.addEventListener('click', () => {
+		document.getElementById('contenedor-menu').classList.toggle('active')
+	});
+</script>
+
+</body>
+</html>
