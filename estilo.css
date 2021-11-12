@@ -9,6 +9,13 @@
 body{
 	background:#efefef;
 	color:white;
+	margin:0;
+	margin-bottom:200px;
+}
+
+html{
+	min-height:100%;
+	position:relative;
 }
 
 
@@ -17,12 +24,14 @@ body{
 	text-align:center;
 }
 
-.nino {
+.nino{
 
 	width:400px;
 	height:400px;
 	margin:20px;
 	border:20px solid #396362;
+	object-fit:cover;
+	
 
 }
 
@@ -168,12 +177,35 @@ body{
 	height:200px;
 	background:#396362;
 	color:#fff;
+	display:block;
+	position:absolute;
+	bottom:0;
+	text-align:center;
+
 }
-.texto-abajo2,b{
+
+
+.texto-abajo2{
 	color:#fff;
+
 }
+
+
+.texto-abajo-h4{
+	
+	color:#fff;
+	display:inline-block;
+	
 	
 }
+
+
+.texto-abajo-b{
+
+color:#fff;
+
+}
+
 
 .ul-paypal{
 	display:inline-block;
@@ -244,7 +276,7 @@ color:rgb(170,170,170);
 }
 
 
-}
+
 
 
 .texto-h1{
@@ -255,15 +287,35 @@ color:rgb(170,170,170);
 
 .texto-h1 h1{
 	margin:20px;
+	text-align:center;
 }
 
 .texto-h1 h2{
 	margin:20px;
+	text-align:center;
 }
 
 .texto-h1 h3{
 	margin:10px 20px ;
+	text-align:center;
 }
+
+
+.centrar-1{
+	width:100%;
+	text-align:center;
+}
+
+.centrar-2{
+	width:100%;
+	text-align:center;
+}
+
+.centrar-3{
+	width:100%;
+	text-align:center;
+}
+
 
 .ultima-pregunta{
 	margin-bottom:120px;
@@ -283,6 +335,7 @@ color:rgb(170,170,170);
 
 
 
+
 @media (max-width:768px){
 
 
@@ -291,8 +344,8 @@ color:rgb(170,170,170);
 
 	.cebrapng{
 		display:block;
-		width:200px;
-		height:200px;
+		width:250px;
+		height:250px;
 		border:2px solid #396362;
 		
 		
@@ -304,16 +357,16 @@ color:rgb(170,170,170);
 
 	.pensarpng{
 		display:block;
-		width:200px;
-		height:200px;
+		width:250px;
+		height:250px;
 		border:2px solid #396362;
 		text-align:center;
 	}
 
 	.eleccionespng{
 		display:block;
-		width:200px;
-		height:200px;
+		width:250px;
+		height:250px;
 		border:2px solid #396362;
 		text-align:center;
 	}
@@ -401,8 +454,8 @@ color:rgb(170,170,170);
 
 
 .zebraa{
-		width:400px;
-		height:400px;
+		width:300px;
+		height:300px;
 	}
 
 	
@@ -454,7 +507,6 @@ color:rgb(170,170,170);
 
 
 
-}
 
 
 .imagenes{
@@ -472,16 +524,57 @@ color:rgb(170,170,170);
 	height:300px;
 }
 
+
+
 .texto-abajo{
 	width:100%;
 	height:200px;
 	background:#396362;
 	color:#fff;
+	display:block;
+	position:absolute;
+	bottom:0;
+	text-align:center;
+
 }
-.texto-abajo2,b{
+
+
+.texto-abajo2{
 	color:#fff;
 
+}
 
+
+.texto-abajo-h4{
+	
+	color:#fff;
+	display:inline-block;
+	
+	
+}
+
+
+.texto-abajo-b{
+
+color:#fff;
+
+}
+
+
+.centrar-1{
+	width:100%;
+	text-align:center;
+}
+
+.centrar-2{
+	width:100%;
+	text-align:center;
+}
+
+.centrar-3{
+	width:100%;
+	text-align:center;
+}
 
 }
 
