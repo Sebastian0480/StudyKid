@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Studykid</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/bfc4ede10e.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="contenedor-menu" id="contenedor-menu">
+	<p class="casa-menu" id="casa-menu">
+		<i class="fas fa-home"></i>
+	</p>
+	<nav class="elementos-navegacion">
+		<ul class="encabezado">
+		
+			<li class="titulo"><a href="StudyKid.html">StudyKid</a></li>
+			<li class="inicio"><a href="index.html">INICIO</a></li>
+			<li class="comojugar"><a href="Comojugar.html">¿COMO JUGAR?</a></li>
+			<li class="donaciones"><a href="Donaciones.html">DONACIONES</a></li>
+
+		</ul>
+	</nav>
+</div>
+
+
+
+<div class="centrar-animales">
+<h1>¿Que animal es?</h1>
+<img class="zebraa" src="zebra.png">
+
+<form>
+	<input class="cebra" type="button" value="Cebra" name="">
+	<input class="leon" type="button" value="León" name="">
+	<input class="pinguino" type="button" value="Pinguino" name="">
+	<input class="cocodrilo" type="button" value="Cocodrilo" name="">
+</form>
+</div>
+
+<script>
+	const menu = document.getElementById('casa-menu');
+	menu.addEventListener('click', () => {
+		document.getElementById('contenedor-menu').classList.toggle('active')
+	});
+</script>
+
+</body>
+</html>

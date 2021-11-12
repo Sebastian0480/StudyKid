@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Studykid</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/bfc4ede10e.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="contenedor-menu" id="contenedor-menu">
+	<p class="casa-menu" id="casa-menu">
+		<i class="fas fa-home"></i>
+	</p>
+	<nav class="elementos-navegacion">
+		<ul class="encabezado">
+		
+			<li class="titulo"><a href="StudyKid.html">StudyKid</a></li>
+			<li class="inicio"><a href="index.html">INICIO</a></li>
+			<li class="comojugar"><a href="Comojugar.html">¿COMO JUGAR?</a></li>
+			<li class="donaciones"><a href="Donaciones.html">DONACIONES</a></li>
+
+		</ul>
+	</nav>
+</div>
+
+
+
+
+<div class="primera-oracion">
+<h2>Para el matenimiento de la pagina se aceptan donativos</h2>
+
+<ul class="ul-paypal">
+	<a class="paypal" href="https://www.paypal.com/pe/home" target="__blank"><i class="fab fa-paypal"></i> Paypal</a>
+</ul>
+
+<h2>Redes Sociales:</h2>
+<ul class="francisco">
+	<li class="li-instagram"><a class="instagram" href="https://www.instagram.com/sebastianrs_07/" target="__blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+	<li class="li-youtube"><a class="youtube" href="https://www.youtube.com/channel/UCKaYx-OISA6l82FfbehjyWg" target="__blank" ><i class="fab fa-youtube"></i> Youtube</li>
+</ul>
+</div>
+
+<script>
+	const menu = document.getElementById('casa-menu');
+	menu.addEventListener('click', () => {
+		document.getElementById('contenedor-menu').classList.toggle('active')
+	});
+</script>
+
+</body>
+</html>
